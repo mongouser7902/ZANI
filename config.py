@@ -18,13 +18,13 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7025826430:AAFtNhgFpTjh3eB6k2flrelKSPB5Da5WX6I")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7613834010:AAFnk_BN0C7f32bxaIJYmDu_H6RE1JfpfRQ")
 APP_ID = int(os.environ.get("APP_ID", "29483517")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002507373158")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Lokki Ten no") # Owner username without @
+OWNER = os.environ.get("OWNER", "𝚉𝙰𝙽𝙸") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
@@ -36,8 +36,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/clutch008")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/bMzR1nr2/aebe5231b2d0.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/s9c9FsSm/bbb5313b2cab.jpg")
+START_PIC = os.environ.get("START_PIC", "https://ibb.co/XZZhqDs0")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://ibb.co/XZZhqDs0")
 #--------------------------------------------
 
 #--------------------------------------------
